@@ -1,0 +1,47 @@
+<!--
+  Yerim Heo
+  12/3/2020
+  CSE 154 AF Wilson Tang
+  This is the "zoomingo.html" file of the final project. It defines the overall structure
+  and layout of the Zoomingo website.
+-->
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <title>Zoomingo</title>
+  <link rel='stylesheet' href='styles.css'>
+  <script src='zoomingo.js'></script>
+</head>
+
+<body>
+  <section>
+    <h1>Welcome to CSE 154's Zoomingo!</h1>
+    <p>Enter your name:</p>
+    <input id='name' type='text'>
+    <p>Choose a board size:</p>
+    <select id='size-select'>
+      <option value='0' selected>--Please choose a board size--</option>
+      <option value='9'>3x3</option>
+      <option value='25'>5x5</option>
+      <option value='49'>7x7</option>
+      <option value='81'>9x9</option>
+    </select>
+    <br>
+    <div id='buttons'>
+      <button id='new-game'>New Game</button>
+      <button id='reset'>Reset</button>
+      <button id='resume' disabled>Resume Game?</button>
+    </div>
+    <p id='error'></p>
+    <p id='message'></p>
+  </section>
+
+  <div id='board'>
+  </div>
+  <br>
+  <button id='bingo'>Bingo!!!</button>
+</body>
+
+</html>

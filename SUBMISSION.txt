@@ -1,0 +1,18 @@
+Yerim Heo
+11/15/2020
+CSE 154 AF Wilson Tang
+
+1.
+  #1: public/zoomingo.html lines 21-30 and public/zoomingo.js lines 28, 80-82, 167-168, 208-210
+  #2: public/zoomingo.html lines 24-26, 41-42, public/styles.css lines 91-101, and public/zoomingo.js lines 48-68
+  #3: public/zoomingo.js lines 27, 73-109, 208, and app.js lines 24-53
+  #4: app.js line 39
+  #5: public/zoomingo.js lines 207-216
+  #6: public/styles.css lines 45-49, public/zoomingo.js lines 64, 114-132, app.js lines 55-81
+  #7: public/zoomingo.js lines 29, 137-171, app.js lines 83-112
+  #8: public/zoomingo.js lines 102-103, app.js lines 28-33, 47-48, 70, 101, 135-136
+  #9: sql.txt lines 18-28
+  #10: sql.txt lines 1-10
+  #11: public/zoomingo.js lines 30, 36-42, 176-202
+
+2. If I had more time, I would've liked to make it so that you could only win the game if you got a row filled out rather than just the square root of the board size. It bothers me that the name of the game is not the actual game we made.

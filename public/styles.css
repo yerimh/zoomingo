@@ -1,0 +1,111 @@
+/*
+  Yerim Heo
+  12/3/2020
+  CSE 154 AF Wilson Tang
+  This is the "styles.css" file of the final project. It defines the overall cool-toned flat
+  colored look of the Zoomingo website.
+*/
+
+body {
+  background-color: lavender;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+section {
+  margin: 40px 0px;
+}
+
+body, section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
+}
+
+p, button, input, select {
+  margin: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
+}
+
+button, input, select {
+  margin: 10px;
+  padding: 5px;
+  border-style: none;
+  border-radius: 3px;
+  background-color: rgb(224, 189, 238);
+}
+
+.selected {
+  background-color: rgb(131, 141, 231);
+  height: 100%;
+  width: 100%;
+}
+
+.square {
+  background-color: rgb(186, 192, 240);
+}
+
+.square, .selected {
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.three {
+  margin: 20px 8px;
+  width: 26%;
+  height: 200px;
+}
+
+.five {
+  margin: 15px 5px;
+  width: 16%;
+  height: 150px;
+}
+
+.seven {
+  margin: 8px 4px;
+  width: 12%;
+  height: 100px;
+}
+
+.nine {
+  margin: 5px 1px;
+  width: 10%;
+  height: 80px;
+}
+
+#buttons {
+  flex-direction: row;
+}
+
+#board {
+  width: 100%;
+  border-radius: 8px;
+  background-color: rgb(16, 16, 65);
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+#error {
+  margin: 20px 0px;
+  color: red;
+}
+
+#bingo {
+  padding: 30px;
+  border-radius: 8px;
+  font-size: 20px;
+}
